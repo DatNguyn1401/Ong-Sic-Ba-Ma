@@ -1,0 +1,44 @@
+.arial{
+    
+    font-style: italic;
+    letter-spacing: 1.8px;
+    font-size: 20px;
+
+}
+.timenew{
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.chuthuong{
+    text-indent: 40px;
+    letter-spacing: 1.8px;
+    font-weight: 20px;
+}
+
+.ogiua{
+    text-align: center;
+}
+
+.textleft{
+    text-align: left;
+}
+
+.quydanh{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dobong{
+    text-shadow: 5px 5px 5px;
+}
+
+.cachdong{
+    line-height: 20px
+}
+
+p{
+    text-align: left;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
