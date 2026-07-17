@@ -1,5 +1,16 @@
 .DatNguynGG{
     background-image: url(../FolderViDu/DatNguynAvatarGG.png);
+}
+
+.DatNguynFB{
+    background-image: url(../FolderViDu/AvatarFB.png);
+}
+
+.DatNguynZL{
+    background-image: url(../FolderViDu/AvatarZL.png);
+}
+
+.Avatar{
     height: 50px;
     width: 50px;
     background-size: cover;

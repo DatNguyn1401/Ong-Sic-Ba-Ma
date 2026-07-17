@@ -1,0 +1,33 @@
+.CatWaiting{
+    background-image: url(../FolderViDu/WaitingCat.gif);
+}
+
+.Study{
+    background-image: url(../FolderViDu/homework.gif);
+}
+
+.Working{
+    background-image: url(../FolderViDu/work.gif);
+}
+
+.mail{
+    background-image: url(../FolderViDu/mail.gif);
+}
+
+.Music{
+    background-image: url(../FolderViDu/MusicCat.gif);
+}
+
+.Watching{
+    background-image: url(../FolderViDu/WatchingCat.gif);
+}
+.Gif{
+    vertical-align: middle;
+    height: 50px;
+    width: 70px;
+    background-size: cover;
+}
+
+.ogiua{
+    text-align: center;
+}
