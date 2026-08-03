@@ -17,21 +17,24 @@
       h1 {
         font-size: 20px;
       }
+      
       span,
       h1 {
-        
         text-shadow: black 1px 1px 3px;
         color: white;
+      }
+      .hvll{
+        text-shadow: rgb(128, 127, 127) 1px 1px 10px;
+        color: rgb(0, 0, 0);
       }
       .list {
         display: flex;
         flex-direction: column;
-        background: #000000;
+        background: #f5ebeb;
         background: linear-gradient(
           180deg,
-          rgba(0, 0, 0, 1) 0%,
-          rgba(168, 168, 168, 1) 84%,
-          rgba(255, 255, 255, 1) 100%
+          rgba(245, 235, 235, 1) 0%,
+          rgba(0, 0, 0, 1) 60%
         );
         width: fit-content;
         padding: 10px;
@@ -58,6 +61,8 @@
       }
 
       .mck {
+        padding: 10px;
+        border-radius: 10px;
         background: #000000;
         background: linear-gradient(
           80deg,
@@ -65,6 +70,8 @@
           rgba(255, 0, 0, 1) 62%,
           rgba(255, 255, 255, 1) 100%
         );
+        width: fit-content;
+         box-shadow: #ff0000 2px 0px 4px;
       }
 
       .anh {
@@ -79,525 +86,399 @@
         background-color: rgba(74, 204, 255, 0.76);
         border-radius: 10px;
       }
+      .tenbaihat {
+        text-align: center;
+        gap: 33px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+      }
+      .menu {
+        width: 200px;
+        background-color: #000000;
+        box-shadow: rgb(90, 0, 0) 1px 2px 15px;
+      }
+      .sieubu {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        height: 100vh;
+        background: #ff0000;
+        background: linear-gradient(
+          0deg,
+          rgba(255, 0, 0, 1) 0%,
+          rgba(0, 0, 0, 1) 77%
+        );
+      }
+      .hvl {
+        padding: 10px;
+        border-radius: 10px;
+        background: #000000;
+        background: linear-gradient(
+          80deg,
+          rgba(0, 0, 0, 1) 40%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        width: fit-content;
+        box-shadow: #f5ebeb 2px 0px 4px;
+      }
+      .chunenden {
+        font-size: 30px;
+        color: rgb(255, 0, 0);
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        text-shadow: #ff0000 1px 1px 10px;
+      }
+      .chunhonenden {
+        color: rgb(255, 0, 0);
+        font-family: "Times New Roman", Times, serif;
+        text-align: left;
+        text-shadow: #ff0000 1px 1px 10px;
+      }
+      body {
+        margin: 0;
+      }
     </style>
   </head>
   <body>
-    <h1 style="text-align: center; font-size: 100px; text-shadow: rgb(255, 0, 0) 2px 2px 10px; color: rgb(61, 0, 0);">Top Những Bài Hát Đỉnh Cao VKL!</h1>
-    <div style="display: flex; flex-direction: row; gap: 30px">
-      <!-- LISTBU -->
+    <div class="sieubu">
+      <!-- sieubu -->
 
-      <div class="list">
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin: 5px;
-            align-items: center;
-          "
-        >
-          <span
-            style="font-size: 25px; text-shadow: rgb(138, 138, 138) 2px 2px 2px"
-            >Top 10 Bai Hat Seci Nhat 2026:</span
-          >
-        </div>
-
-        <!-- list -->
-        <!-- MCK -->
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background-color: rgba(141, 0, 0, 0.473);
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>1</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 8px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/MCK.jfif" alt="" />
-              <span>Baby</span>
-              <span>(Hoang Long Mkiki)</span>
-            </div>
-            <div>
-              <a
-                href="https://youtu.be/n7nt4ixOwmo?si=9ydndINhhHJiIZS6"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px"> 100%</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- M10 -->
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background-color: rgba(74, 204, 255, 0.452);
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>2</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 10px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/goat.jpg" alt="" />
-              <span>Nguyễn Văn Mười</span>
-              <span>(Mesi)</span>
-            </div>
-            <div>
-              <a
-                href="https://youtu.be/2FiAwaDztGk?si=RC8x5X7of7zhbVyV"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px"> 100%</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Anh7 -->
-
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background-color: rgba(255, 33, 33, 0.39);
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>3</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 33px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/anh 7.jpg" alt="" />
-              <span>Lê Văn Bảy</span>
-              <span>(Anh 7)</span>
-            </div>
-            <div>
-              <a
-                href="https://youtu.be/mmeLCAP74KA?si=pwoD1Bb591L8Pwl-"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px"> 77%</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- mp3 -->
-
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background-color: rgba(23, 27, 252, 0.384);
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>4</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 25px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/ninja.jpg" alt="" />
-              <span>NHACCUATUI</span>
-              <span>(mp3)</span>
-            </div>
-            <div>
-              <a
-                href="https://youtu.be/6VC5VHn5EQM?si=ulhTNQQ3IS80DgUo"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px"> 90%</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Gia Mẫn -->
-
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background-color: rgba(255, 240, 33, 0.39);
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>5</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 43px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/LamineYamal.jpg" alt="" />
-              <span>Gia Mẫn</span>
-              <span>(Yamal)</span>
-            </div>
-            <div>
-              <a
-                href="https://youtu.be/mmeLCAP74KA?si=pwoD1Bb591L8Pwl-"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px"> 77%</span>
-            </div>
-          </div>
-        </div>
-
-
-        
-        
-        
-        
-
-
-
-        <!-- list so 2-->
-
-
-
-
-
-
-
-
-
-
-        
+      <!-- menu -->
+      <div class="menu">
+        <h2 class="chunenden">Menu</h2>
+        <a href="Facebook.com" class="chunhonenden">Truy Cập Facebook</a>
+        <br />
+        <a href="Youtube.com" class="chunhonenden">Truy Cập Youtube</a>
       </div>
-      <div class="list2">
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin: 5px;
-            align-items: center;
-          "
-        >
-          <span
-            style="
-              font-size: 25px;
-              color: #000000;
-              text-shadow: rgb(255, 0, 0) 2px 2px 10px;
-            "
-            >Album 99%:</span
-          >
-          <span
-            style="
-              font-size: 25px;
-              color: #000000;
-              text-shadow: rgb(255, 0, 0) 2px 2px 10px;
-            "
-            >(MCK)</span
-          >
-        </div>
+      <!-- menu -->
 
-        <!-- list -->
-        <!-- ChimSau -->
-        <div
+      <div>
+        <!-- main -->
+        <h1
           style="
-            padding: 10px;
-            border-radius: 10px;
-            background: #000000;
-            background: linear-gradient(
-              80deg,
-              rgba(0, 0, 0, 1) 0%,
-              rgba(255, 0, 0, 1) 62%,
-              rgba(255, 255, 255, 1) 100%
-            );
-            width: fit-content;
+            text-align: center;
+            font-size: 100px;
+            text-shadow: rgb(255, 0, 0) 2px 2px 10px;
+            color: rgb(61, 0, 0);
           "
         >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>1</h1></div>
+          Top Những Bài Hát Đỉnh Cao VKL!
+        </h1>
+        <div style="display: flex; flex-direction: row; gap: 30px">
+          <!-- list -->
+          <div class="list2">
             <div
               style="
-                text-align: center;
-                gap: 104px;
-                padding-left: 10px;
-                padding-right: 10px;
                 display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 5px;
                 align-items: center;
               "
             >
-              <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
-              <span>Chìm Sâu</span>
+              <span
+                style="
+                  font-size: 25px;
+                  color: #000000;
+                  text-shadow: rgb(255, 0, 0) 2px 2px 10px;
+                "
+                >Album 99%:</span
+              >
+              <span
+                style="
+                  font-size: 25px;
+                  color: #000000;
+                  text-shadow: rgb(255, 0, 0) 2px 2px 10px;
+                "
+                >(MCK)</span
+              >
             </div>
-            <div>
-              <a
-                href="https://www.nhaccuatui.com/song/5x3eVJQrzDXH"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
+
+            <!-- list -->
+            <!-- ChimSau -->
+            <div class="mck">
+              <div class="baihat" style="width: fit-content">
+                <div><h1>1</h1></div>
+                <div class="tenbaihat" style="gap: 104px">
+                  <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
+                  <span>Chìm Sâu</span>
+                </div>
+                <div>
+                  <a
+                    href="https://www.nhaccuatui.com/song/5x3eVJQrzDXH"
+                    target="_blank"
+                    ><img
+                      class="nutplay"
+                      src="../FolderViDu/play-buttton.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <span style="font-size: 20px; color: #000000"> 100%</span>
+                </div>
+              </div>
             </div>
-            <div>
-              <span style="font-size: 20px; color: #000000"> 100%</span>
+
+            <!-- suitandtie -->
+            <div class="mck">
+              <div class="baihat" style="width: fit-content">
+                <div><h1>2</h1></div>
+                <div class="tenbaihat" style="gap: 86px">
+                  <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
+                  <span>Suit And Tie</span>
+                </div>
+                <div>
+                  <a
+                    href="https://www.nhaccuatui.com/song/fQvWIRRC1nvL"
+                    target="_blank"
+                    ><img
+                      class="nutplay"
+                      src="../FolderViDu/play-buttton.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <span style="font-size: 20px; color: #000000"> 100%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Va Vao Giai Dieu -->
+
+            <div class="mck">
+              <div class="baihat" style="width: fit-content">
+                <div><h1>3</h1></div>
+                <div class="tenbaihat" style="gap: 33px">
+                  <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
+                  <span>Va Vào Giai Điệu Này</span>
+                </div>
+                <div>
+                  <a
+                    href="https://www.nhaccuatui.com/song/h6MkYlq2EPaI"
+                    target="_blank"
+                    ><img
+                      class="nutplay"
+                      src="../FolderViDu/play-buttton.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <span style="font-size: 20px; color: #000000"> 93%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- ToiNay -->
+
+            <div class="mck">
+              <div class="baihat" style="width: fit-content">
+                <div><h1>4</h1></div>
+                <div class="tenbaihat" style="gap: 22px">
+                  <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
+                  <span>Tối Nay Ta Đi Đâu Nhờ</span>
+                </div>
+                <div>
+                  <a
+                    href="https://www.nhaccuatui.com/song/BXuFzPCYdwdP"
+                    target="_blank"
+                    ><img
+                      class="nutplay"
+                      src="../FolderViDu/play-buttton.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <span style="font-size: 20px; color: #000000"> 90%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chi Mot Dem Nua Thoi -->
+
+            <div class="mck">
+              <div class="baihat" style="width: fit-content">
+                <div><h1>5</h1></div>
+                <div class="tenbaihat" style="gap: 37px">
+                  <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
+                  <span>Chỉ một đêm nữa thôi</span>
+                </div>
+                <div>
+                  <a
+                    href="https://www.nhaccuatui.com/song/0BYtUvzPAyTT"
+                    target="_blank"
+                    ><img
+                      class="nutplay"
+                      src="../FolderViDu/play-buttton.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <span style="font-size: 20px; color: #000000"> 99%</span>
+                </div>
+              </div>
+            </div>
+            <!-- list -->
+          </div>
+          <!-- list2 -->
+          <div>
+            <div class="list" style="box-shadow: #0f0000 2px 10px 20px">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  margin: 5px;
+                  align-items: center;
+                "
+              >
+                <span
+                  style="
+                    font-size: 25px;
+                    color: #000000;
+                    text-shadow: rgb(3, 3, 3) 2px 2px 10px;
+                  "
+                  >Album HVL:</span
+                >
+                <span
+                  style="
+                    font-size: 25px;
+                    color: #000000;
+                    text-shadow: rgb(0, 0, 0) 2px 2px 10px;
+                  "
+                  >(MCK)</span
+                >
+              </div>
+
+              <!-- ChimSau -->
+              <div class="hvl">
+                <div class="baihat" style="width: fit-content">
+                  <div><h1>1</h1></div>
+                  <div class="tenbaihat" style="gap: 134px">
+                    <img class="anh" src="../FolderViDu/HVL.png" alt="" />
+                    <span class="hvll">Baby</span>
+                  </div>
+                  <div>
+                    <a
+                      href="https://www.nhaccuatui.com/song/5x3eVJQrzDXH"
+                      target="_blank"
+                      ><img
+                        class="nutplay"
+                        src="../FolderViDu/play-buttton.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div>
+                    <span style="font-size: 20px; color: #000000"> 100%</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- suitandtie -->
+              <div class="hvl">
+                <div class="baihat" style="width: fit-content">
+                  <div><h1>2</h1></div>
+                  <div class="tenbaihat" style="gap: 26px">
+                    <img class="anh" src="../FolderViDu/HVL.png" alt="" />
+                    <span class="hvll">Nhìn Kẻ Thù Của Tao</span>
+                  </div>
+                  <div>
+                    <a
+                      href="https://www.nhaccuatui.com/song/fQvWIRRC1nvL"
+                      target="_blank"
+                      ><img
+                        class="nutplay"
+                        src="../FolderViDu/play-buttton.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div>
+                    <span style="font-size: 20px; color: #000000"> 100%</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Va Vao Giai Dieu -->
+
+              <div class="hvl">
+                <div class="baihat" style="width: fit-content">
+                  <div><h1>3</h1></div>
+                  <div class="tenbaihat" style="gap: 66px">
+                    <img class="anh" src="../FolderViDu/HVL.png" alt="" />
+                    <span class="hvll">Xa Xôi (f. Obito)</span>
+                  </div>
+                  <div>
+                    <a
+                      href="https://www.nhaccuatui.com/song/h6MkYlq2EPaI"
+                      target="_blank"
+                      ><img
+                        class="nutplay"
+                        src="../FolderViDu/play-buttton.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div>
+                    <span style="font-size: 20px; color: #000000"> 93%</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ToiNay -->
+
+              <div class="hvl">
+                <div class="baihat" style="width: fit-content">
+                  <div><h1>4</h1></div>
+                  <div class="tenbaihat" style="gap: 56px">
+                    <img class="anh" src="../FolderViDu/HVL.png" alt="" />
+                    <span class="hvll">Nguyễn Văn Mười</span>
+                  </div>
+                  <div>
+                    <a
+                      href="https://www.nhaccuatui.com/song/BXuFzPCYdwdP"
+                      target="_blank"
+                      ><img
+                        class="nutplay"
+                        src="../FolderViDu/play-buttton.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div>
+                    <span style="font-size: 20px; color: #000000"> 90%</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Chi Mot Dem Nua Thoi -->
+
+              <div class="hvl">
+                <div class="baihat" style="width: fit-content">
+                  <div><h1>5</h1></div>
+                  <div class="tenbaihat" style="gap: 55px">
+                    <img class="anh" src="../FolderViDu/HVL.png" alt="" />
+                    <span class="hvll">Mắt Môi Tay Chân</span>
+                  </div>
+                  <div>
+                    <a
+                      href="https://www.nhaccuatui.com/song/0BYtUvzPAyTT"
+                      target="_blank"
+                      ><img
+                        class="nutplay"
+                        src="../FolderViDu/play-buttton.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div>
+                    <span style="font-size: 20px; color: #000000"> 99%</span>
+                  </div>
+                </div>
+              </div>
+              <!-- list -->
             </div>
           </div>
         </div>
-
-        <!-- suitandtie -->
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background: #000000;
-            background: linear-gradient(
-              80deg,
-              rgba(0, 0, 0, 1) 0%,
-              rgba(255, 0, 0, 1) 62%,
-              rgba(255, 255, 255, 1) 100%
-            );
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>2</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 86px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
-              <span>Suit And Tie</span>
-            </div>
-            <div>
-              <a
-                href="https://www.nhaccuatui.com/song/fQvWIRRC1nvL"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px; color: #000000"> 100%</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- ToiNay -->
-
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background: #000000;
-            background: linear-gradient(
-              80deg,
-              rgba(0, 0, 0, 1) 0%,
-              rgba(255, 0, 0, 1) 62%,
-              rgba(255, 255, 255, 1) 100%
-            );
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>3</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 33px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
-              <span>Va Vào Giai Điệu Này</span>
-            </div>
-            <div>
-              <a
-                href="https://www.nhaccuatui.com/song/h6MkYlq2EPaI"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px; color: #000000"> 93%</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- ToiNay -->
-
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background: #000000;
-            background: linear-gradient(
-              80deg,
-              rgba(0, 0, 0, 1) 0%,
-              rgba(255, 0, 0, 1) 62%,
-              rgba(255, 255, 255, 1) 100%
-            );
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>4</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 22px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
-              <span>Tối Nay Ta Đi Đâu Nhờ</span>
-            </div>
-            <div>
-              <a
-                href="https://www.nhaccuatui.com/song/BXuFzPCYdwdP"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px; color: #000000"> 90%</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Gia Mẫn -->
-
-        <div
-          style="
-            padding: 10px;
-            border-radius: 10px;
-            background: #000000;
-            background: linear-gradient(
-              80deg,
-              rgba(0, 0, 0, 1) 0%,
-              rgba(255, 0, 0, 1) 62%,
-              rgba(255, 255, 255, 1) 100%
-            );
-            width: fit-content;
-          "
-        >
-          <div class="baihat" style="width: fit-content">
-            <div><h1>5</h1></div>
-            <div
-              style="
-                text-align: center;
-                gap: 37px;
-                padding-left: 10px;
-                padding-right: 10px;
-                display: flex;
-                align-items: center;
-              "
-            >
-              <img class="anh" src="../FolderViDu/SuitTie.webp" alt="" />
-              <span>Chỉ một đêm nữa thôi</span>
-            </div>
-            <div>
-              <a
-                href="https://www.nhaccuatui.com/song/0BYtUvzPAyTT"
-                target="_blank"
-                ><img
-                  class="nutplay"
-                  src="../FolderViDu/play-buttton.png"
-                  alt=""
-              /></a>
-            </div>
-            <div>
-              <span style="font-size: 20px; color: #000000"> 99%</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- list so 2-->
       </div>
-
-      <!-- listBU -->
+      <!-- sieubu -->
     </div>
   </body>
 </html>
